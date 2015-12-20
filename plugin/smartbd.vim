@@ -4,5 +4,5 @@ function! SmartBd()
   exec "bdelete ".last_buffer
 endfunction
 
-command SmartBd call SmartBd()
+command! SmartBd call SmartBd()
 
